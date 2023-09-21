@@ -1,7 +1,7 @@
 # pokerhands
 decides the winning hand between two poker hands (with interface)
 ---
-![pokerHands.gif]
+![](https://github.com/alessandraCo/pokerhands/blob/master/pokerHands.gif)
 ---
 ## Description
 - the game compares two poker hands of five cards automatic generated from a deck of 52 cards
