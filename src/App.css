@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+
+
+.background-board {
+    display: flex;
+    background-color: #BFD7EA;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.board {
+    border-radius: 2em;
+    border: 0.2em white dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: 1.5em;
+    background-color: #0B3954;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    max-width: 40em;
+    min-width: 40em;
+    max-height: 45em;
+    min-height: 45em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.console {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 4em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3 {
+    color: azure;
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.winner-props {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scores {
+    display: flex;
+    padding: 1.5em;
+    flex-direction: column;
+    gap: 0.5em;
+    border: 0.1em white dotted;
+    border-radius: 2em;
+}
+
+.buttons {
+    display: block;
+    margin: auto;
+}
+
+.buttons button {
+    display: block;
+    width: 5em;
+    height: 3em;
+    margin: 1em;
+    padding: 0;
+    background-color: #BFD7EA;
+    border: 0.1em solid white;
+    border-radius: 2em;
+    color: #0B3954;
+    font-weight: bold;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    scale: 1.1;
 }

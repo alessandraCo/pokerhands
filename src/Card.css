@@ -1,0 +1,38 @@
+.card-component {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2em;
+  width: 6.5em;
+  height: 10em;
+  background-color: azure;
+  border: 0.1em solid black;
+  border-radius: 1em;
+}
+
+.card-suit-img {
+  width: 4em;
+  align-self: center;
+}
+
+
+#card-value-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.1em;
+    align-items: center;
+    padding-right: 0.3em;
+}
+
+#card-value-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.1em;
+    align-items: center;
+    padding-left: 0.3em;
+}
+
+.card-suit-img-corner {
+    width: 1em;
+    height: 1em;
+}
