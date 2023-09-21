@@ -1,7 +1,7 @@
 # pokerhands
 decides the winning hand between two poker hands (with interface)
 ---
-!(pokerHands.gif)
+![pokerHands.gif]
 ---
 ## Description
 - the game compares two poker hands of five cards automatic generated from a deck of 52 cards
@@ -9,7 +9,7 @@ decides the winning hand between two poker hands (with interface)
 - the two hands are then compared to determine the winner using the rules below
 - the game keeps track of the number of victories between the two players:
     - pressing button "go" updates the victories
-    - pressinf button "reset" restar the count from zero
+    - pressing button "reset" restarts the count from zero
 ---
 ## Rules
 - **High Card**: Hands which do not fit any higher category are ranked by the 
