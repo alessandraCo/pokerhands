@@ -39,5 +39,7 @@ by the highest card in the hand.
 ### how to run the project
 - open the terminal and type `npm start`
 - it will open the browser with the running app
+### how to run the tests
+- open the terminal and type `npm test`
 
 
