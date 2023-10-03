@@ -35,5 +35,9 @@ a pair. Ranked by the value of the 3 cards.
 cards.
 - **Straight flush**: 5 cards of the same suit with consecutive values. Ranked 
 by the highest card in the hand.
+---
+### how to run the project
+- open the terminal and type `npm start`
+- it will open the browser with the running app
 
 
